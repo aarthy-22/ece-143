@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="http://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="http://assets.pyecharts.org/assets/themes/macarons.js"></script>
+
+    
+</head>
+<body>
+    <style>.box { justify-content:center; display:flex; flex-wrap:wrap;  }; </style>
+    <div class="box">
+                <div id="fc6a35ef639d46ba9e30fb7e79164adf" class="chart-container" style="width:1000px; height:800px;"></div>
+    <script>
+        var chart_fc6a35ef639d46ba9e30fb7e79164adf = echarts.init(
+            document.getElementById('fc6a35ef639d46ba9e30fb7e79164adf'), 'dark', {renderer: 'canvas'});
+        var option_fc6a35ef639d46ba9e30fb7e79164adf = {
+    "backgroundColor": "#161627",
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "radar",
+            "name": "2015",
+            "data": [
+                [
+                    19.2,
+                    35.5,
+                    56.6,
+                    55.1,
+                    62.9,
+                    36.6,
+                    "University of California, San Diego"
+                ]
+            ],
+            "symbol": "none",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {}
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 0.5,
+                "curveness": 0,
+                "type": "solid",
+                "color": "#dd4444"
+            },
+            "areaStyle": {
+                "opacity": 0.4,
+                "color": "#dd4444"
+            }
+        },
+        {
+            "type": "radar",
+            "name": "2014",
+            "data": [
+                [
+                    19.7,
+                    35.5,
+                    56.1,
+                    55.7,
+                    65.0,
+                    36.5,
+                    "University of California, San Diego"
+                ]
+            ],
+            "symbol": "none",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {}
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 0.5,
+                "curveness": 0,
+                "type": "solid",
+                "color": "#80F1BE"
+            },
+            "areaStyle": {
+                "opacity": 0.2,
+                "color": "#80F1BE"
+            }
+        },
+        {
+            "type": "radar",
+            "name": "2013",
+            "data": [
+                [
+                    20.0,
+                    35.8,
+                    60.3,
+                    55.5,
+                    63.4,
+                    35.5,
+                    "University of California, San Diego"
+                ]
+            ],
+            "symbol": "none",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {}
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 0.5,
+                "curveness": 0,
+                "type": "solid",
+                "color": "#fec42c"
+            },
+            "areaStyle": {
+                "opacity": 0.2,
+                "color": "#fec42c"
+            }
+        },
+        {
+            "type": "radar",
+            "name": "2012",
+            "data": [
+                [
+                    20.3,
+                    36.6,
+                    60.3,
+                    52.8,
+                    64.0,
+                    34.1,
+                    "University of California, San Diego"
+                ]
+            ],
+            "symbol": "none",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {}
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 0.5,
+                "curveness": 0,
+                "type": "solid",
+                "color": "#00E5EE"
+            },
+            "areaStyle": {
+                "opacity": 0.2,
+                "color": "#00E5EE"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "2015",
+                "2014",
+                "2013",
+                "2012"
+            ],
+            "selected": {
+                "2015": true,
+                "2014": false,
+                "2013": false,
+                "2012": false
+            },
+            "selectedMode": "multiple",
+            "show": true,
+            "bottom": 5,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function (obj) {            var value = obj.value;            var schema = [{name: 'alumni', index: 0, text: 'alumni'},                            {name: 'award', index: 1, text: 'award'},                            {name:  'hici', index: 2, text: 'hici'},                            {name: 'ns', index: 3, text: 'n&s'},                            {name:  'pub', index: 4, text: 'pub'},                            {name: 'pcp', index: 5, text: 'pcp'}];            return '<div style=\"border-bottom: 1px solid rgba(255,255,255,.3); font-size: 18px;padding-bottom: 7px;margin-bottom: 7px\">'                + value[6]                 + '</div>'                + schema[0].text + '\uff1a' + value[0] + '<br>'                + schema[1].text + '\uff1a' + value[1] + '<br>'                + schema[2].text + '\uff1a' + value[2] + '<br>'                + schema[3].text + '\uff1a' + value[3] + '<br>'                + schema[4].text + '\uff1a' + value[4] + '<br>'                + schema[5].text + '\uff1a' + value[5] + '<br>';        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "backgroundColor": "#222",
+        "borderColor": "#777",
+        "borderWidth": 1,
+        "padding": 5
+    },
+    "radar": {
+        "indicator": [
+            {
+                "name": "alumni",
+                "max": 100
+            },
+            {
+                "name": "award",
+                "max": 100
+            },
+            {
+                "name": "hici",
+                "max": 100
+            },
+            {
+                "name": "n&s",
+                "max": 100
+            },
+            {
+                "name": "pub",
+                "max": 100
+            },
+            {
+                "name": "pcp",
+                "max": 100
+            }
+        ],
+        "shape": "circle",
+        "name": {
+            "textStyle": {
+                "color": "rgb(238, 197, 102)"
+            }
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "color": [
+                    "rgba(238, 197, 102, 1)",
+                    "rgba(238, 197, 102, 0.8)",
+                    "rgba(238, 197, 102, 0.6)",
+                    "rgba(238, 197, 102, 0.4)",
+                    "rgba(238, 197, 102, 0.2)",
+                    "rgba(238, 197, 102, 0.1)"
+                ]
+            }
+        },
+        "splitArea": {
+            "show": true,
+            "areaStyle": {
+                "opacity": 0
+            }
+        },
+        "axisLine": {
+            "show": true,
+            "width": 1,
+            "opacity": 1,
+            "curveness": 0,
+            "type": "solid",
+            "color": "rgba(238, 197, 102, 1)"
+        }
+    },
+    "title": [
+        {
+            "text": "UCSD performance in different domain over years",
+            "left": "center",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "fontSize": 20
+            }
+        }
+    ]
+};
+        chart_fc6a35ef639d46ba9e30fb7e79164adf.setOption(option_fc6a35ef639d46ba9e30fb7e79164adf);
+    </script>
+<br/>                <div id="ddaf25903b5643788586e61e54fea824" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_ddaf25903b5643788586e61e54fea824 = echarts.init(
+            document.getElementById('ddaf25903b5643788586e61e54fea824'), 'macarons', {renderer: 'canvas'});
+        var option_ddaf25903b5643788586e61e54fea824 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "line",
+            "name": "University of California, San Diego",
+            "connectNulls": false,
+            "symbol": "emptyCircle",
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2012",
+                    15
+                ],
+                [
+                    "2013",
+                    14
+                ],
+                [
+                    "2014",
+                    14
+                ],
+                [
+                    "2015",
+                    14
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "University of California, San Diego"
+            ],
+            "selected": {
+                "University of California, San Diego": true
+            },
+            "type": "scroll",
+            "show": true,
+            "left": "right",
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2012",
+                "2013",
+                "2014",
+                "2015"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisTick": {
+                "show": true,
+                "alignWithLabel": false,
+                "inside": false
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "World rank of UCSD Over Years",
+            "left": "center",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "fontSize": 20
+            }
+        }
+    ]
+};
+        chart_ddaf25903b5643788586e61e54fea824.setOption(option_ddaf25903b5643788586e61e54fea824);
+    </script>
+<br/>    </div>
+    <script>
+    </script>
+</body>
+</html>
