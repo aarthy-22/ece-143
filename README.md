@@ -23,11 +23,11 @@ Looking at UCSD's performace in different ranking metrics, UCSD has done consist
 
 ![UCSD Gain Areas](./charts/UCSD%20Analysis/UCSD%20Gain%20Areas.png)
 
-![UCSD radar charts](./charts/UCSD_radar.png)  ![UCSD radar charts](./charts/UCSD_radar1.png)
+![UCSD radar charts](./charts/UCSD_radar.png) 
 
 Comparing performance of top 200 universities in different countries (UK, USA and China), universities in USA do the best.
 
-![Comparison between different countries](./charts/country_radar.png)
+![Comparison between different countries](./charts/Country_radar.png)
 # Conclusions
 The following conclusions have been drawn from the data analysis done:
 
