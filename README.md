@@ -12,3 +12,13 @@ All the data we used is stored in the [data](./data) folder. This data is mostly
 - Center for World University Rankings (CWUR)
 - Shanghai Ranking (aka) Academic Ranking of World Universities (ARWU)
 # Visualisations and Analysis
+
+# Conclusions
+The following conclusions have been drawn from the data analysis done:
+
+- Rankings are not consistent across the different ranking systems since different systems give priorities to different factors. 
+- Increase in expenditure resulted in better rankings for some countries but there is no clear correlation, since we also saw examples of high spending not resulting in better rankings and vice versa as well.
+- There are no clear trends in rankings across countries over time, but USA dominates all the three different university ranking systems.
+ 
+
+
