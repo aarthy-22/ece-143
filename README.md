@@ -22,10 +22,10 @@ Comparing educational spending of the country and the number of top 100 ranked u
 Looking at UCSD's performace in different ranking metrics, UCSD has done consistently well in citations and international collaboration.
 
 ![UCSD Gain Areas](./charts/UCSD%20Analysis/UCSD%20Gain%20Areas.png)
-![UCSD Gain Areas](./charts/ucsd_chart.html)
+[UCSD radar charts](https://aarthy-22.github.io/ece-143/charts/ucsd_chart.html)
 
 Comparing performance of top 200 universities in different countries (UK, USA and China), universities in USA do the best.
-![UCSD Gain Areas](./charts/radar_chart.html)
+[Comparison between different countries](https://aarthy-22.github.io/ece-143/charts/radar_chart.html)
 # Conclusions
 The following conclusions have been drawn from the data analysis done:
 
