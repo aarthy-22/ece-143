@@ -1,5 +1,6 @@
 # University Rankings Analysis
-ECE 143 Final project - Group 11
+ECE 143 Fall 2021 Final project - Group 11
+
 This project compares different university ranking systems and the changing trends in rankings over the years. University rankings, though controversial, are very important for prospective undergraduate and graduate students to help choose the university which would be a good fit for them. This project tries to address the following questions:
 - Are all the ranking systems consistent? 
 - Would expenditure affect ranking?
