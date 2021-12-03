@@ -19,7 +19,8 @@ The rankings all agreed on USA as the country with the largest number of top ran
 Comparing educational spending of the country and the number of top 100 ranked universities in a country, we found some trends in certain cases but nothing conclusive,
 [Educational spending vs rankings](https://aarthy-22.github.io/ece-143/charts/expenditure-rankings.html)
 
-Looking at UCSD's performace in different ranking metrics, UCSD has consistently well in citations and international collaboration.
+Looking at UCSD's performace in different ranking metrics, UCSD has done consistently well in citations and international collaboration.
+
 ![UCSD Gain Areas](./charts/UCSD%20Analysis/UCSD%20Gain%20Areas.png)
 
 # Conclusions
