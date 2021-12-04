@@ -23,7 +23,7 @@ From the chart above, Germany have a trand of increase over years and it is also
 Comparing educational spending of the country and the number of top 100 ranked universities in a country, we found some trends in certain cases but nothing conclusive,
 [Educational spending vs rankings](https://aarthy-22.github.io/ece-143/charts/expenditure-rankings.html)
 
-The visualisation from CWUR
+The United Stateds also play a dominant role from CWUR parameter comparison.[The visualisation from CWUR](https://github.com/aarthy-22/ece-143/blob/main/charts/9e4bc3e7-5a07-4a85-ab2c-e2a95170fea9.JPG)
 
 Looking at UCSD's performace in different ranking metrics, UCSD has done consistently well in citations and international collaboration.
 
