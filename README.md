@@ -17,6 +17,7 @@ The rankings all agreed on USA as the country with the largest number of top ran
 [Top 100 rankings of different ranking agencies over time](https://aarthy-22.github.io/ece-143/charts/line_chart.html)
 
 From the chart above, Germany have a trand of increase over years and it is also associated with its educational spending.
+[The number of top universities of Germany growth](https://github.com/aarthy-22/ece-143/blob/main/charts/PHOTO-2021-11-21-17-16-45.JPG)
 
 Comparing educational spending of the country and the number of top 100 ranked universities in a country, we found some trends in certain cases but nothing conclusive,
 [Educational spending vs rankings](https://aarthy-22.github.io/ece-143/charts/expenditure-rankings.html)
